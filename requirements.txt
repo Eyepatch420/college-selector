@@ -208,7 +208,6 @@ wheel==0.44.0
 widgetsnbextension==4.0.13
 wrapt==1.16.0
 xgboost==2.1.1
-pip install --upgrade pip setuptools wheel
 pip>=21.3.1
 setuptools>=57.5
 wheel>=0.36.2
