@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import csv
 
 app = Flask(__name__)
-filename='G:\VS Code Files\Python\college selector\college_branches_cutoff.csv'
+filename='college_branches_cutoff.csv'
 def find_top_3_colleges(jee_rank, filename):
     eligible_options = []
     try:
